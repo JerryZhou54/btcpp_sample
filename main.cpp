@@ -9,10 +9,11 @@ static const char* xml_text = R"(
 
      <BehaviorTree ID="MainTree">
         <Sequence name="root">
-            <AlwaysSuccess/>
-            <SaySomething   message="this works too" />
-            <ThinkWhatToSay text="{the_answer}"/>
-            <SaySomething   message="{the_answer}" />
+            <GameStart>
+            <AddBullet>
+            <Patrol>
+            <Attack>
+            <Retreat>
         </Sequence>
      </BehaviorTree>
 
@@ -20,43 +21,77 @@ static const char* xml_text = R"(
  )";
 // clang-format on
 
-class SaySomething : public BT::SyncActionNode
+class GameStart : public BT::SyncActionNode
 {
   public:
-  SaySomething(const std::string& name, const BT::NodeConfig& config) :
+  GameStart(const std::string& name, const BT::NodeConfig& config) :
         BT::SyncActionNode(name, config)
   {}
 
   BT::NodeStatus tick() override
   {
-    std::string msg;
-    getInput("message", msg);
-    std::cout << msg << std::endl;
+    std::cout << "Game Start!" << std::endl;
     return BT::NodeStatus::SUCCESS;
-  }
-
-  static BT::PortsList providedPorts()
-  {
-    return {BT::InputPort<std::string>("message")};
   }
 };
 
-class ThinkWhatToSay : public BT::SyncActionNode
+class AddBullet : public BT::SyncActionNode
 {
   public:
-  ThinkWhatToSay(const std::string& name, const BT::NodeConfig& config) :
+  AddBullet(const std::string& name, const BT::NodeConfig& config) :
         BT::SyncActionNode(name, config)
   {}
 
   BT::NodeStatus tick() override
   {
-    setOutput("text", "The answer is 42");
+    // Add bullets
+    std::cout << "Add Bullet" << std::endl;
     return BT::NodeStatus::SUCCESS;
   }
+};
 
-  static BT::PortsList providedPorts()
+class Patrol : public BT::SyncActionNode
+{
+  public:
+  Patrol(const std::string& name, const BT::NodeConfig& config) :
+        BT::SyncActionNode(name, config)
+  {}
+
+  BT::NodeStatus tick() override
   {
-    return {BT::OutputPort<std::string>("text")};
+    // Patrol
+    std::cout << "Patroling!" << std::endl;
+    return BT::NodeStatus::SUCCESS;
+  }
+};
+
+class Retreat : public BT::SyncActionNode
+{
+  public:
+  Retreat(const std::string& name, const BT::NodeConfig& config) :
+        BT::SyncActionNode(name, config)
+  {}
+
+  BT::NodeStatus tick() override
+  {
+    // Retreat
+    std::cout << "Retreating!" << std::endl;
+    return BT::NodeStatus::SUCCESS;
+  }
+};
+
+class Attack : public BT::SyncActionNode
+{
+  public:
+  Attack(const std::string& name, const BT::NodeConfig& config) :
+        BT::SyncActionNode(name, config)
+  {}
+
+  BT::NodeStatus tick() override
+  {
+    // Attack
+    std::cout << "Attacking!" << std::endl;
+    return BT::NodeStatus::SUCCESS;
   }
 };
 
@@ -65,8 +100,11 @@ int main()
 
   BehaviorTreeFactory factory;
 
-  factory.registerNodeType<SaySomething>("SaySomething");
-  factory.registerNodeType<ThinkWhatToSay>("ThinkWhatToSay");
+  factory.registerNodeType<GameStart>("GameStart");
+  factory.registerNodeType<AddBullet>("AddBullet");
+  factory.registerNodeType<Patrol>("Patrol");
+  factory.registerNodeType<Retreat>("Retreat");
+  factory.registerNodeType<Attack>("Attack");
 
   auto tree = factory.createTreeFromText(xml_text);
 

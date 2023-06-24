@@ -1,0 +1,2142 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42f75/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_42f75.dir/build.make CMakeFiles/cmTC_42f75.dir/build
+Building CXX object CMakeFiles/cmTC_42f75.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_42f75.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_42f75.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_42f75/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9b543/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9b543.dir/build.make CMakeFiles/cmTC_9b543.dir/build
+Building CXX object CMakeFiles/cmTC_9b543.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_9b543.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_9b543.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_9b543/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_05e74/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_05e74.dir/build.make CMakeFiles/cmTC_05e74.dir/build
+Building CXX object CMakeFiles/cmTC_05e74.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_05e74.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_05e74.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_05e74/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c018d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c018d.dir/build.make CMakeFiles/cmTC_c018d.dir/build
+Building CXX object CMakeFiles/cmTC_c018d.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_c018d.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_c018d.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_c018d/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_00e90/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00e90.dir/build.make CMakeFiles/cmTC_00e90.dir/build
+Building CXX object CMakeFiles/cmTC_00e90.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_00e90.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_00e90.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_00e90/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11180/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_11180.dir/build.make CMakeFiles/cmTC_11180.dir/build
+Building CXX object CMakeFiles/cmTC_11180.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_11180.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_11180.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_11180/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2046e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2046e.dir/build.make CMakeFiles/cmTC_2046e.dir/build
+Building CXX object CMakeFiles/cmTC_2046e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_2046e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_2046e.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_2046e/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6067/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6067.dir/build.make CMakeFiles/cmTC_d6067.dir/build
+Building CXX object CMakeFiles/cmTC_d6067.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_d6067.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_d6067.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_d6067/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bfe3f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bfe3f.dir/build.make CMakeFiles/cmTC_bfe3f.dir/build
+Building CXX object CMakeFiles/cmTC_bfe3f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_bfe3f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_bfe3f.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_bfe3f/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7756c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7756c.dir/build.make CMakeFiles/cmTC_7756c.dir/build
+Building CXX object CMakeFiles/cmTC_7756c.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_7756c.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_7756c.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_7756c/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca521/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ca521.dir/build.make CMakeFiles/cmTC_ca521.dir/build
+Building CXX object CMakeFiles/cmTC_ca521.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_ca521.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_ca521.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_ca521/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cc51a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc51a.dir/build.make CMakeFiles/cmTC_cc51a.dir/build
+Building CXX object CMakeFiles/cmTC_cc51a.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_cc51a.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_cc51a.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_cc51a/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0be6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0be6.dir/build.make CMakeFiles/cmTC_d0be6.dir/build
+Building CXX object CMakeFiles/cmTC_d0be6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_d0be6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_d0be6.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_d0be6/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6464d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6464d.dir/build.make CMakeFiles/cmTC_6464d.dir/build
+Building CXX object CMakeFiles/cmTC_6464d.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_6464d.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_6464d.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_6464d/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a1a1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2a1a1.dir/build.make CMakeFiles/cmTC_2a1a1.dir/build
+Building CXX object CMakeFiles/cmTC_2a1a1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_2a1a1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_2a1a1.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_2a1a1/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5daf1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5daf1.dir/build.make CMakeFiles/cmTC_5daf1.dir/build
+Building CXX object CMakeFiles/cmTC_5daf1.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_5daf1.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_5daf1.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_5daf1/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0fa87/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0fa87.dir/build.make CMakeFiles/cmTC_0fa87.dir/build
+Building CXX object CMakeFiles/cmTC_0fa87.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_0fa87.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_0fa87.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_0fa87/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_92fb7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_92fb7.dir/build.make CMakeFiles/cmTC_92fb7.dir/build
+Building CXX object CMakeFiles/cmTC_92fb7.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_92fb7.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_92fb7.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_92fb7/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db4d7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_db4d7.dir/build.make CMakeFiles/cmTC_db4d7.dir/build
+Building CXX object CMakeFiles/cmTC_db4d7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_db4d7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_db4d7.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_db4d7/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f404a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f404a.dir/build.make CMakeFiles/cmTC_f404a.dir/build
+Building CXX object CMakeFiles/cmTC_f404a.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_f404a.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_f404a.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_f404a/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0107c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0107c.dir/build.make CMakeFiles/cmTC_0107c.dir/build
+Building CXX object CMakeFiles/cmTC_0107c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_0107c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_0107c.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_0107c/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_da3d4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_da3d4.dir/build.make CMakeFiles/cmTC_da3d4.dir/build
+Building CXX object CMakeFiles/cmTC_da3d4.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_da3d4.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_da3d4.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_da3d4/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_31cde/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_31cde.dir/build.make CMakeFiles/cmTC_31cde.dir/build
+Building CXX object CMakeFiles/cmTC_31cde.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_31cde.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_31cde.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_31cde/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d607/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0d607.dir/build.make CMakeFiles/cmTC_0d607.dir/build
+Building CXX object CMakeFiles/cmTC_0d607.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_0d607.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_0d607.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_0d607/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_97426/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_97426.dir/build.make CMakeFiles/cmTC_97426.dir/build
+Building CXX object CMakeFiles/cmTC_97426.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_97426.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_97426.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_97426/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89c95/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89c95.dir/build.make CMakeFiles/cmTC_89c95.dir/build
+Building CXX object CMakeFiles/cmTC_89c95.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_89c95.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_89c95.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_89c95/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++-12: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++-12: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++-12: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/g++-12 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++-12: fatal error: no input files
+compilation terminated.
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_895e5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_895e5.dir/build.make CMakeFiles/cmTC_895e5.dir/build
+Building CXX object CMakeFiles/cmTC_895e5.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_895e5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_895e5.dir/CMakeCXXCompilerABI.cpp.o] Error 1
+make: *** [cmTC_895e5/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ed6d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ed6d.dir/build.make CMakeFiles/cmTC_4ed6d.dir/build
+Building CXX object CMakeFiles/cmTC_4ed6d.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-12    -o CMakeFiles/cmTC_4ed6d.dir/testCXXCompiler.cxx.o -c /Users/jerryzhou/Downloads/btcpp_sample/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!
+make[1]: *** [CMakeFiles/cmTC_4ed6d.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_4ed6d/fast] Error 2
+
+
+
